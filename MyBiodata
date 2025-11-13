@@ -6,6 +6,11 @@
     <title>My Biodata</title>
 </head>
 <body>
+        <nav>
+        <a href="MyBiodata">Home</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
     <img src="phang.jpg" alt="phang" width="200">
     <h1>PHANG SUK CHEN</h1>
     <p>Student ID: 100775</p>
