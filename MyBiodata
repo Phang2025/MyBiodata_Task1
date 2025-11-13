@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+</head>
+<body>
+    <img src="phang.jpg" alt="phang" width="200">
+    <h1>PHANG SUK CHEN</h1>
+    <p>Student ID: 100775</p>
+    <p>Program: Cognitive Science</p>  
+    <p>Birthday: 2002 September 06</p> 
+    <p>Hometown: Kuching</p>   
+</body>
+</html>
+
