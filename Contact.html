@@ -3,30 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Biodata - Contact</title>
+
+    <!-- Internal CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+        
+        h1 {
+            color: rgb(23, 32, 196);
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        /* Container */
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        form {
+            background-color: #f0d9d9;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #186bdf;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
+
 <body>
-    <nav>
-        <a href="MyBiodata">Home</a>
-        <a href="Contact.html">Contact</a>
-    </nav>
-    <h1>Contact Me</h1>
-    <form action="#"method="#">
-        <label for="name">Name</label><br><br>
-        <input type="text" id="name" name="Name" required>
+    <!-- Navigation Bar! -->
+    <nav style="background-color: rgb(78, 155, 244); padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+    <a href="index.html" style="color: white; text-decoration: none; padding: 10px 20px; background-color: rgba(255,255,255,0.2); border-radius: 100px;">Home</a>
+    <a href="Contact.html" style="color: white; text-decoration: none; padding: 10px 20px; background-color: rgba(255,255,255,0.2); border-radius: 100px;">Contact</a>
+</nav>
 
-        <br><br>
-            <label for="phone"></label>Phone Number</label><br><br>
-        <input type="tel" id="phone" name="phone" required>
+    <!-- Form-Container -->
+    <div class="form-container">
+        <h1>Contact Me</h1>
 
-         <br><br>
-         <label for="email"></label>Email</label><br><br>
-         <input type="email" id="email" name="email" required>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required>
 
-         <button type="button" onclick="window.location.href='index.html'">Back</button>
-         <br><br>
-         <button type="submit">Submit</button>
-    </form>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+        
+            <div style="display: flex; justify-content: space-between;">
+    <button type="button" onclick="window.location.href='index.html'">Back</button>
+    <button type="submit">Submit</button>
+</div>
+        </form>
+    </div>
+
 </body>
 </html>
-
